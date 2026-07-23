@@ -1,0 +1,31 @@
+# 42Maru
+
+> 42Maru is a South Korean AI deep-tech company building a Deep Semantic TA (Text Analytics) and QA (Question Answering) platform that understands the true intent of a user's question and returns a single answer from large unstructured document sets. Its cognitive-search stack combines document retrieval with Machine Reading Comprehension (MRC), and is delivered as enterprise chatbots, question-answering engines, and knowledge-management search. 42Maru ranked #1 on Stanford's SQuAD 2.0 machine-reading benchmark and is a Techstars London alumnus.
+
+## Products
+- QA42 — AI-based Question Answering solution: https://www.42maru.ai/en/solutions/
+- CHAT42 — conversational AI chatbot with natural-language understanding: https://www.42maru.ai/en/solutions/
+- NL42 — natural-language processing technology: https://www.42maru.ai/en/technology/
+- Platform42 — SaaS cognitive-search / MRC question-answering platform: https://github.com/42maru/saas-eng-gitbook
+
+## Docs
+- Technology overview: https://www.42maru.ai/en/technology/
+- Solutions overview: https://www.42maru.ai/en/solutions/
+- Case studies: https://www.42maru.ai/en/cases/
+- Platform42 documentation (English, gitbook source): https://github.com/42maru/saas-eng-gitbook
+- Platform42 documentation (Korean, gitbook source): https://github.com/42maru/saas-ko-gitbook
+
+## Code
+- GitHub organization (42maru): https://github.com/42maru
+- GitHub organization (42maru-ai): https://github.com/42maru-ai
+- Hugging Face models: https://huggingface.co/42MARU
+
+## Company
+- Website: https://42maru.ai/
+- About us: https://www.42maru.ai/en/about-us/
+- Blog: https://www.42maru.ai/en/blog/
+- Careers: https://www.42maru.ai/en/about-us/careers/
+- Contact / support: https://www.42maru.ai/en/contact/
+
+## Notes
+- No public REST API host, OpenAPI/Swagger specification, first-party SDK (npm/PyPI/etc.), CLI, MCP server, or /.well-known discovery surface was found as of 2026-07-17. Platform42 is delivered as an enterprise SaaS; API access appears to be provisioned per-customer rather than via an open public API.

@@ -1,7 +1,18 @@
 aid: 42maru
 name: 42Maru
-description: 42Maru is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  42Maru is a South Korean AI deep-tech company building a Deep Semantic TA (Text
+  Analytics) and QA (Question Answering) platform that understands the true intent
+  behind a user's question and returns a single answer drawn from large sets of
+  unstructured documents. Its cognitive-search stack pairs document retrieval with
+  Machine Reading Comprehension (MRC) and is delivered as enterprise chatbots
+  (CHAT42), question-answering engines (QA42), natural-language processing (NL42),
+  and the Platform42 SaaS. 42Maru ranked #1 on Stanford's SQuAD 2.0 machine-reading
+  benchmark, won an AWS AI Challenge award, and is a Techstars London alumnus. It
+  was added to the API Evangelist network from the Techstars portfolio and enriched
+  from its public marketing site, GitHub organizations, and gitbook documentation;
+  no public REST API, OpenAPI, first-party SDK, or /.well-known discovery surface
+  was found — Platform42 API access appears to be provisioned per enterprise customer.
 url: https://raw.githubusercontent.com/api-evangelist/42maru/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://42maru.ai/media/images/42MARU_pabikon.2e16d0ba.fill-64x64.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Natural Language Processing
+- Question Answering
+- Cognitive Search
+- Machine Reading Comprehension
+- Chatbot
+- Enterprise Search
+- Deep Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://42maru.ai/
+- type: DeveloperPortal
+  url: https://github.com/42maru/saas-eng-gitbook
+- type: Documentation
+  url: https://github.com/42maru/saas-eng-gitbook
+- type: Blog
+  url: https://www.42maru.ai/en/blog/
+- type: Support
+  url: https://www.42maru.ai/en/contact/
+- type: GitHubOrganization
+  url: https://github.com/42maru
+- type: DomainSecurity
+  url: security/42maru-domain-security.yml
+- type: WellKnown
+  url: well-known/42maru-well-known.yml
+- type: LLMsTxt
+  url: llms/42maru-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

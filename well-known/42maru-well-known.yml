@@ -1,0 +1,21 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://42maru.ai/.well-known/*
+host: https://42maru.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  42Maru publishes no /.well-known discovery documents on its primary host as of
+  the probe date. The corporate site (42maru.ai) is a marketing site; the product
+  documentation (Platform42 / Machine Reading Comprehension SaaS) is maintained in
+  GitHub gitbook repos rather than a rendered developer portal, and no public REST
+  API host, OpenAPI, or OAuth authorization server was found.
