@@ -49,7 +49,7 @@ modified: '2026-07-17'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Question Answering
 - Cognitive Search
@@ -68,6 +68,7 @@ tags_raw:
 - Chatbot
 - Enterprise Search
 - Deep Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
