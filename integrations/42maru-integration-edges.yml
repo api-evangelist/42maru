@@ -1,0 +1,33 @@
+generated: '2026-10-23'
+method: searched
+checked:
+- hugging-face/integrations/hugging-face-integration-edges.yml
+source:
+- hugging-face/integrations/hugging-face-integration-edges.yml
+edges:
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/42MARU
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - 42MARU/ko-spelling-wav2vec2-conformer-del-1s
+  - 42MARU/ko-42maru-wav2vec2-conformer-del-1s
+  - 42MARU/GenAI-llama-2-13b
+  - 42MARU/GenAI-llama2-ko-en-instruct-v4-13B
+  - 42MARU/llama-2-ko-7b-instruct
+  - 42MARU/ko-ctc-kenlm-spelling-only-wiki
+  - 42MARU/ko-ctc-kenlm-42maru-only-wiki
+  - 42MARU
+  listing_count: 2
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub models
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
